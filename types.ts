@@ -3,7 +3,11 @@ export type Role = 'admin' | 'assessor' | 'participant';
 export interface User {
   id: string;
   name: string;
-  nrk: string; // Employee ID
+  nip: string; // Nomor Induk Pegawai
+  nrk: string; // Nomor Registrasi Kepegawaian
+  gol: string; // Golongan
+  jabatan: string; // Jabatan/Position
+  unitKerja: string; // Unit Kerja
   role: Role;
   avatarUrl: string;
 }
