@@ -1,0 +1,7 @@
+{
+  "name": "LUME",
+  "description": "A minimalist, high-fidelity attendance and assessment platform featuring an ethereal glassmorphism aesthetic.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
